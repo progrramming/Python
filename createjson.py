@@ -2,7 +2,7 @@
 
 import json
 
-# a Python object (dict):
+# создаём объект
 x = {
   "name": "John",
   "age": 30,
@@ -10,10 +10,10 @@ x = {
   "test": "test2"
 }
 
-# convert into JSON:
+# конвертируем в JSON:
 y = json.dumps(x)
 
-# the result is a JSON string:
+# записываем в файл testwritejsonfile.json
 
 with open("testwritejsonfile.json","a") as out:
     #for i in y:
